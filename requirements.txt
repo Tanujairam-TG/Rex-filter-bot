@@ -19,3 +19,6 @@ carbonnow==0.0.1
 
 #For locks (sql achemy) 
 sqlalchemy==1.3.20
+
+#For logo maker
+Pillow>=4.2.0
