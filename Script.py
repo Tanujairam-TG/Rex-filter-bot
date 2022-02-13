@@ -149,3 +149,7 @@ Added By - {}
 ID - <code>{}</code>
 Name - {}
 """
+
+    COVID_TXT = """<b> Covid 19 Information </b>
+ᵗʰⁱˢ ᶠᵉᵃᵗᵘʳᵉ ʰᵉˡᵖˢ ʸᵒᵘ ᵗᵒ ᵏⁿᵒʷ ᵗʰᵉ ᶜᵒᵛⁱᵈ 19 ⁱⁿᶠᵒ ᵒᶠ ᵃ ˢᵖᵉᶜⁱᶠⁱᵉᵈ ᶜᵒᵘⁿᵗʳʸ
+To know the Covid info send <code> /covid india </code>"""
