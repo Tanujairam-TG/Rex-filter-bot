@@ -10,7 +10,7 @@ from plugins.helper_functions.string_handling import extract_time
 
  
 
-@Client.on_message(filters.command("ban", COMMAND_HAND_LER))
+@Client.on_message(filters.command("bann", COMMAND_HAND_LER))
 
 async def ban_user(_, message):
 
