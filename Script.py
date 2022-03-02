@@ -156,3 +156,8 @@ To know the Covid info send <code> /covid india </code>"""
     JSON_TXT = """<b> Json imformation </b>
 To know the json info of the message do reply and give command as /json
 """
+
+    PURGE_TXT = """ <b> Purge module </b>
+To delete a message. Reply to a message where to start purging from 
+ """
+    
