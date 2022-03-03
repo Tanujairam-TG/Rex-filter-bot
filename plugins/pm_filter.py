@@ -530,7 +530,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-     elif query.data == "purge":
+    elif query.data == "purge":
         buttons = [[
             InlineKeyboardButton('🔙 ʙᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start')
