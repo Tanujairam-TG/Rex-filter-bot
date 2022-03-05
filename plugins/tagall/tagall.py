@@ -9,7 +9,7 @@
 
 from pyrogram import filters
 
-from mrjoker.pyro.pluginshelper import admins_only, get_text
+from plugins.tagall.pluginshelper import admins_only, get_text
 from mrjoker import pbot
 
 
