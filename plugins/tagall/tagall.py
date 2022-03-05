@@ -10,7 +10,7 @@
 from pyrogram import filters
 
 from plugins.tagall.pluginshelper import admins_only, get_text
-from mrjoker import pbot
+from plugins.tagall.imp import pbot
 
 
 @pbot.on_message(filters.command("tagall") & ~filters.edited & ~filters.bot)
