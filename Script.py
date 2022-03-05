@@ -161,5 +161,5 @@ To know the json info of the message do reply and give command as /json
 To delete a message. Reply /purge to a message where to start purging from 
  """
     GTRANS_TXT = """ <b> Google Translator </b>
-To translate a text to your required language by replying /tr [laguage code](https://cloud.google.com/translate/docs/languages)
+To translate a text to your required language by replying /tr language 
  """
