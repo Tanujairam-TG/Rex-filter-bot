@@ -1,4 +1,4 @@
-from mrjoker import LOAD, LOGGER, NO_LOAD
+from plugins.tagall.impo import LOAD, LOGGER, NO_LOAD
 
 
 def __list_all_modules():
