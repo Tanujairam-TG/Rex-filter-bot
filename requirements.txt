@@ -22,10 +22,3 @@ sqlalchemy==1.3.20
 
 #For logo maker
 Pillow>=4.2.0
-
-#For tag all
-spamwatch
-python-telegram-bot==12.8
-telethon==1.16.4
-python-arq
-odmantic
