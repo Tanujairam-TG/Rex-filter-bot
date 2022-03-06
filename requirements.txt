@@ -27,3 +27,4 @@ Pillow>=4.2.0
 spamwatch
 python-telegram-bot==12.8
 telethon==1.16.4
+python-arq
