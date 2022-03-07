@@ -23,7 +23,7 @@ from pymongo import MongoClient
 from pyrogram import Client
 from pyromod import listen
 
-from config import config
+from info import config
 from Stella.StellaGban import StellaClient
 
 #from stellagban import StellaClient
