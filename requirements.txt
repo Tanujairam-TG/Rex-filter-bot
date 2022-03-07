@@ -15,3 +15,4 @@ aiohttp==3.7.3
 pyshorteners
 
 spamwatch
+python-telegram-bot==12.8
