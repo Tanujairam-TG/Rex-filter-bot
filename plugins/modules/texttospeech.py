@@ -1,5 +1,5 @@
-from mrjoker import *
-from mrjoker import telethn as tbot
+from jk import *
+from jk import telethn as tbot
 from mrjoker.events import register
 from gtts import gTTS
 from gtts import gTTSError
