@@ -22,3 +22,4 @@ Pillow>=4.2.0
 
 #For locks
 APScheduler==3.7.0
+pyromod==1.5
