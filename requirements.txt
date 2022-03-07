@@ -19,3 +19,6 @@ carbonnow==0.0.1
 
 #For logo maker
 Pillow>=4.2.0
+
+#url_shortner
+aiohttp==3.7.4
