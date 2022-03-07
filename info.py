@@ -62,11 +62,20 @@ LOG_STR += f"Your Currect IMDB template is {IMDB_TEMPLATE}"
 
 #command
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
-
 WARN_DATA_ID = int(environ.get("WARN_DATA_ID", "0"))
-
 WARN_SETTINGS_ID = int(environ.get("WARN_SETTINGS_ID", "0")) 
-
 
 # the maximum number of 'selectable' messages in Telegram
 TG_MAX_SELECT_LEN = 100
+
+#lock module
+import toml
+
+
+class AttrDict(dict):
+    def __init__(self, *args, **kwargs):
+        super(AttrDict, self).__init__(*args, **kwargs)
+        self.__dict__ = self
+
+
+config = toml.load('config.toml', AttrDict)
