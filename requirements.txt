@@ -12,3 +12,4 @@ googletrans==4.0.0-rc1
 carbonnow==0.0.1
 Pillow>=4.2.0
 aiohttp==3.7.3
+pyshorteners
