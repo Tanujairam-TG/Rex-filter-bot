@@ -19,7 +19,3 @@ carbonnow==0.0.1
 
 #For logo maker
 Pillow>=4.2.0
-
-#For int new
-python-arq
-odmantic
