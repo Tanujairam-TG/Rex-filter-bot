@@ -1,6 +1,6 @@
 import html
 
-from Stella import StellaCli
+from plugins.lock.first import StellaCli
 from Stella.database.locks_mongo import allowlist_db, get_allowlist
 from Stella.helper import custom_filter
 from Stella.helper.chat_status import check_user
