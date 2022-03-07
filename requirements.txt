@@ -22,3 +22,4 @@ Pillow>=4.2.0
 
 #For int new
 python-arq
+odmantic
