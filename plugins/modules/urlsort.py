@@ -68,7 +68,7 @@ async def short(link):
         try:
             s = Shortener(api_key=BITLY_API)
             url = s.bitly.short(link)
-            shorten_urls += f"\n[**Bit.ly :-**] ({url})"
+            shorten_urls += f"\n**Bit.ly :-** {url}"
         except Exception as error:
             print(f"Bit.ly error :- {error}")
     
