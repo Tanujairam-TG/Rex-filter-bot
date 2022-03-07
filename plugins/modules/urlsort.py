@@ -1,18 +1,3 @@
-#!/usr/bin/env python3
-# Copyright (C) @ZauteKm
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-
-# You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
 import os
 import aiohttp
 from pyrogram import Client, filters
@@ -24,6 +9,12 @@ BITLY_API = os.environ.get("BITLY_API", "8df1df8c23f719e5cf97788cc2d40321ea30092
 CUTTLY_API = os.environ.get("CUTTLY_API", "f64dffbde033b6c307387dd50b7c76e505f1c")
 SHORTCM_API = os.environ.get("SHORTCM_API", "pk_...NIZv")
 GPLINKS_API = os.environ.get("GPLINKS_API", "008ccaedd6061ad1948838f410947603de9007a7")
+
+reply_markup = InlineKeyboardMarkup(
+        [[
+        InlineKeyboardButton(text='Updates', url='https://t.me/REX_BOTZ')
+        ]]
+    )
 
 @Client.on_message(filters.command(["short"]) & filters.regex(r'https?://[^\s]+'))
 async def reply_shortens(bot, update):
@@ -51,7 +42,8 @@ async def inline_short(bot, update):
             input_message_content=InputTextMessageContent(
                 message_text=shorten_urls,
                 disable_web_page_preview=True
-            )
+            ),
+            reply_markup=reply_markup
         )
     ]
     await bot.answer_inline_query(
@@ -183,7 +175,7 @@ async def short(link):
     
     # Send the text
     try:
-        shorten_urls += "\n[Rex botz](https://t.me/REX_Bots_Support)"
+        shorten_urls += "\n\n Made with ❤ by [ʀᴇx ʙᴏᴛᴢ](https://t.me/REX_BOTZ)"
         return shorten_urls
     except Exception as error:
         return error
