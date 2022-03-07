@@ -6,7 +6,7 @@ api_hash = ""
 bot_token = "5272417495:AAFOvgZ7xz-Gebo_fCNai1DC7E6wy-yE_tE"
 name = ""
 username = ""
-user_id = 0
+user_id = 5272417495
 
 [database]
 database_url = ""
