@@ -25,12 +25,6 @@ CUTTLY_API = os.environ.get("CUTTLY_API", "f64dffbde033b6c307387dd50b7c76e505f1c
 SHORTCM_API = os.environ.get("SHORTCM_API", "pk_...NIZv")
 GPLINKS_API = os.environ.get("GPLINKS_API", "008ccaedd6061ad1948838f410947603de9007a7")
 
-reply_markup = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton(text='join projects channel', url='https://telegram.me/Mksupport1')
-        ]]
-    )
-
 @Client.on_message(filters.command(["short"]) & filters.regex(r'https?://[^\s]+'))
 async def reply_shortens(bot, update):
     message = await update.reply_text(
@@ -74,7 +68,7 @@ async def short(link):
         try:
             s = Shortener(api_key=BITLY_API)
             url = s.bitly.short(link)
-            shorten_urls += f"\n**Bit.ly :-** {url}"
+            shorten_urls += f"\n[**Bit.ly :-**] ({url})"
         except Exception as error:
             print(f"Bit.ly error :- {error}")
     
@@ -190,7 +184,7 @@ async def short(link):
     
     # Send the text
     try:
-        shorten_urls += "[Rex botz](https://t.me/REX_Bots_Support)"
+        shorten_urls += "\n[Rex botz](https://t.me/REX_Bots_Support)"
         return shorten_urls
     except Exception as error:
         return error
