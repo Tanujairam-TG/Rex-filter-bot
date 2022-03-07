@@ -10,7 +10,7 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
-from plugins.Forcesubscribe import DRAGONS as SUDO_USERS
+from plugins.Forcesubscribe.dragons import DRAGONS as SUDO_USERS
 from mrjoker import pbot
 from mrjoker.modules.sql_extended import forceSubscribe_sql as sql
 
