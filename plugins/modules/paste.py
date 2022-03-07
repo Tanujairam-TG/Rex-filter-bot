@@ -59,5 +59,5 @@ async def pasty(client, message):
     p_link = x["url"]
     p_raw = x["raw"]
     
-    pasted = f"**Successfully pasted on pastry**\n\n**Pastry Link:** • [Link]({p_link})\n**Raw Link:** • [Link]({p_raw})"
+    pasted = f"**Successfully pasted on pasty**\n\n**Pasty Link:** • [Link]({p_link})\n**Raw Link:** • [Link]({p_raw})"
     await pablo.edit(pasted, disable_web_page_preview=True)
