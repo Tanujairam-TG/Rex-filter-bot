@@ -24,7 +24,7 @@ from pyrogram import Client
 from pyromod import listen
 
 from info import config
-from Stella.StellaGban import StellaClient
+from plugins.lock.StellaGban import StellaClient
 
 #from stellagban import StellaClient
 
