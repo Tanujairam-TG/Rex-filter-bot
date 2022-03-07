@@ -20,10 +20,4 @@ carbonnow==0.0.1
 #For logo maker
 Pillow>=4.2.0
 
-#For new int
-spamwatch
-Pyrogram
-telethon==1.16.4
-aiohttp>=2.2.5
-motor
-odmantic
+
