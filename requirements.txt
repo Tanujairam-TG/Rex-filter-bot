@@ -16,3 +16,4 @@ pyshorteners
 
 spamwatch
 python-telegram-bot==12.8
+telethon==1.16.4
