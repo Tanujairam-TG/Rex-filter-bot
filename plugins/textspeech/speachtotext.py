@@ -3,7 +3,7 @@ from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 
-from mrjoker import *
+from new import *
 from mrjoker import telethn as tbot
 from mrjoker.events import register
 
