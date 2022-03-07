@@ -146,3 +146,8 @@ cython_debug/
 config.py
 .goutputstream-VAFWB1
 result.json
+
+plugins/lock/StellaGban.py
+# Ignore dynaconf secret files
+.secrets.*
+config.toml?
