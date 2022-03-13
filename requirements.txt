@@ -13,11 +13,3 @@ carbonnow==0.0.1
 Pillow>=4.2.0
 aiohttp==3.7.3
 pyshorteners
-
-spamwatch
-python-telegram-bot==12.8
-telethon==1.16.4
-python-arq
-odmantic
-asyncio==3.4.3
-httpx==0.13.3
