@@ -7,7 +7,7 @@ from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 from pyrogram.errors.exceptions.bad_request_400 import ChatAdminRequired, UserAdminInvalid
 
 
-@Client.on_message(filters.incoming & ~filters.private & filters.command('inkick') & filters.user(ADMINS))
+@Client.on_message(filters.incoming & ~filters.private & filters.command('mclean') & filters.user(ADMINS))
 def inkick(client, message):
   user = client.get_chat_member(message.chat.id, message.from_user.id)
   if user.status == ("creator"):
