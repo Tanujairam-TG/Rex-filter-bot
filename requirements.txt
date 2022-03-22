@@ -14,3 +14,4 @@ Pillow>=4.2.0
 aiohttp==3.7.3
 pyshorteners
 gTTS
+ytthumb
