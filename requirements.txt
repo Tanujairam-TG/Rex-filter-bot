@@ -16,3 +16,4 @@ pyshorteners
 gTTS
 ytthumb
 aiofiles
+wget
