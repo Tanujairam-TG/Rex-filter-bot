@@ -1,4 +1,4 @@
-from Alita.tr_engine.tr_engine import lang_dict, tlang
+from plugins.modules.helpfunc.tr_engine import lang_dict, tlang
 
 
 async def useless_func():
