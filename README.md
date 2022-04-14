@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/93e4f77695889b8053f95.jpg" alt="Eva Maria Logo">
+  <img src="https://telegra.ph/file/e2caa66a1d56beb16bac8.png" 
 </p>
 <h1 align="center">
   <b>🅁🄴🅇 🄱🄾🅃🅉</b>
