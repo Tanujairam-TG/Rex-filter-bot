@@ -6,7 +6,7 @@ else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Rex-filter-bot
 fi
-cd /EvaMaria
+cd /Rex-filter-bot
 pip3 install -U -r requirements.txt
 echo "Starting rex bot 🔥🔥🔥.........."
 python3 bot.py
